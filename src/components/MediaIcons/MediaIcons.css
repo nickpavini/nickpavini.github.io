@@ -1,0 +1,15 @@
+.icons_container {
+    position: fixed;
+    left:0;
+    bottom:2em;
+}
+
+.media_icon {
+    margin-left:0.5em;
+    margin-bottom:1em;
+}
+
+.media_icon:hover {
+    transform: scale(1.4);
+    cursor:pointer;
+}
