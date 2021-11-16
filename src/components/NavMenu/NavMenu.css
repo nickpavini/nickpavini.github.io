@@ -1,16 +1,24 @@
 .nav_menu {
     position: fixed;
     width: 100%;
+    z-index: 999;
+}
+
+.nav_menu_items {
     padding-top: 1em;
+    font-size: 16px;
+    font-family: "JetBrains Mono",monospace;
 }
 
 .nav_link {
     float: right;
-    font-size: 16px;
     margin-top: 0.6em;
     margin-right: 2em;
     cursor: pointer;
-    font-family: "JetBrains Mono",monospace;
+}
+
+.hamburger-react {
+    display: none;
 }
 
 .resume_button {
@@ -26,7 +34,6 @@
     color: #36395A;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
     height: 40px;
     justify-content: center;
     line-height: 1;
@@ -43,7 +50,6 @@
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 16px;
 }
 
 .resume_button:focus {
@@ -58,4 +64,49 @@
 .resume_button:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+@media (max-width: 992px) {
+
+    .nav_menu_items {
+        padding-top: 5em;
+        background-color: rgb(121, 189, 245);
+        text-align: center;
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .hamburger-react {
+        display: block;
+        position: fixed !important;
+        z-index: 999;
+        right: 2em;
+        top: 1em;
+    }
+
+    .nav_link {
+        padding-top: 1em;
+        float: none;
+        margin: 0;
+    }
+
+    .resume_button {
+        all: unset;
+        cursor: pointer;
+    }
+
+    .resume_button:focus .resume_button:hover .resume_button:active {
+        all: unset;
+    }
+
+    .display_true {
+        height: 200px;
+        transition: all .5s ease-in-out;
+    }
+
+    .display_false {
+        height: 0;
+        padding: 0;
+        transition: all .3s ease-in-out;
+    }
 }
