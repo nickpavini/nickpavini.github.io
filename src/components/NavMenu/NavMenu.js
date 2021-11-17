@@ -15,13 +15,13 @@ function NavMenu() {
           <div className={"nav_menu_items display_" + isOpen}>
             <a className="resume_button" href={process.env.PUBLIC_URL + '/NicholasPaviniResume.pdf'}>Resume</a>
             <div className="nav_link">
-                <Link to='experience' spy={true} smooth={true} duration={500}>Experience</Link>
+                <Link to='experience' spy={false} smooth={true} duration={500}>Experience</Link>
             </div>
             <div className="nav_link">
-                <Link to='projects' spy={true} smooth={true} duration={500}>Projects</Link>
+                <Link to='projects' spy={false} smooth={true} duration={500}>Projects</Link>
             </div>
             <div className="nav_link">
-                <Link to='about' spy={true} smooth={true} duration={500}>About</Link>
+                <Link to='about' spy={false} smooth={true} duration={500}>About</Link>
             </div>
           </div>
       </div>
