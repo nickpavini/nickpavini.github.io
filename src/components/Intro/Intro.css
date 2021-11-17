@@ -1,0 +1,81 @@
+#intro {
+    height: 100vh;
+}
+
+#intro_container {
+    padding-top: 10%;
+}
+
+.intro_image {
+    text-align: center;
+}
+
+.intro_next {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.my_name {
+    font-size: 4em;
+    padding-top: 0.5em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.my_name:hover {
+    font-size: 4.5em;
+}
+
+.my_role {
+    color: grey;
+}
+
+#profile_pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#profile_pic {
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    transition: all 0.3s;
+}
+
+
+#profile_pic:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.02);
+}
+
+.arrow_down {
+    border: solid black;
+    border-width: 0px 2px 2px 0;
+    display: inline-block;
+    transition: transform 0.1s ease-in;
+    transform: translateY(-8px) rotate(45deg) scale(3);
+    padding: 4px;
+}
+  
+.arrow:hover {
+
+    transform: translateY(-8px) rotate(45deg) scale(4);
+    cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+
+    #intro_container {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 900px) {
+    .my_name {
+        font-size: 3em;
+    }
+
+    #intro_container {
+        padding-top: 30%;
+    }
+}

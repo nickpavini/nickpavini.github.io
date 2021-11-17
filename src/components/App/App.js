@@ -1,5 +1,7 @@
 import NavMenu from '../NavMenu/NavMenu';
 import MediaIcons from '../MediaIcons/MediaIcons';
+import Intro from '../Intro/Intro';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
       <NavMenu/>
       <MediaIcons/>
+      <Intro/>
     </div>
   );
 }
