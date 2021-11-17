@@ -75,7 +75,17 @@
         font-size: 3em;
     }
 
+    .my_name:hover {
+        font-size: 3.5em;
+    }
+
     #intro_container {
         padding-top: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .my_name:hover {
+        font-size: 3em;
     }
 }
