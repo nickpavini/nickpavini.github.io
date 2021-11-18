@@ -1,0 +1,33 @@
+#experience {
+    height: 100vh;
+    text-align: center;
+}
+
+#experience_container {
+    padding-top: 2em;
+}
+
+#experience h1 {
+    font-size: 3em;
+}
+
+#experience_timeline {
+    margin: auto;
+    padding-top: 2.5em;
+    width:60%;
+    height:75vh;
+}
+
+.card-description{
+    margin-left: 2em!important;
+}
+
+.card-title {
+    margin-top: 1em !important;
+    margin-left: 1em !important;
+}
+
+.card-sub-title {
+    font-weight: 600 !important;
+    margin-left: 1em !important;
+}
