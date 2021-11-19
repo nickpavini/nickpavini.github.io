@@ -82,6 +82,22 @@
     #intro_container {
         padding-top: 30%;
     }
+
+    @media(max-height: 450px) {
+        #intro {
+            height: unset;
+        }
+
+        #intro_container {
+            padding-top: 3%;
+        }
+
+        #profile_pic {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    }
 }
 
 @media (max-width: 500px) {
