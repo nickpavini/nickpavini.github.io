@@ -48,12 +48,22 @@ export const experience = [
             "Work with students to prepare for our annual Integration Bee and AMATYC Testing.",
             "Raise money for pizza party's and fun get togethers!"
         ]
+    },
+    {
+        title: "Jan 2017 – May 2017",
+        cardTitle: "BEACON",
+        cardSubtitle: "Group Tutor",
+        cardDetailedText: [
+            "Tutor college students in Chemistry and Calculus.",
+            "Communicate weekly with professors and coordinate course material for review.",
+            "Promote team learning and breakdown of complicated problems."
+        ]
     }
 ];
 
 export const experieneTheme={ 
     primary: "steelblue",
-    secondary: "white",
+    secondary: "rgba(255, 255, 255, 0.6);",
     cardBgColor: "rgba(230, 245, 255, 0.2)",
     cardForeColor: "Black",
     titleColor: "black"
