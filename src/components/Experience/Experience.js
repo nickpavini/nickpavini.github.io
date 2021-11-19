@@ -15,6 +15,7 @@ function Experience() {
               theme={experieneTheme}
               mode="VERTICAL_ALTERNATING"
               scrollable={{ scrollbar: true }}
+              cardHeight={150}
               hideControls
             />
           </div>

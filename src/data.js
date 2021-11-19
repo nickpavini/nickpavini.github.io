@@ -10,6 +10,16 @@ export const experience = [
         ]
     },
     {
+        title: "Summer 2019 and Summer 2020",
+        cardTitle: "Upward Bound",
+        cardSubtitle: "Youth Mentor",
+        cardDetailedText: [
+            "Guide a designated group of High School students through STEM related coursework to help prepare them for college.",
+            "Lead \"Core Group\" exercises where we build community amongst the students and discuss career desires.",
+            "Accompany students on field trips, and a residency for a 3 day stay at Sacramento State University."
+        ]
+    },
+    {
         title: "Jun 2018 – Aug 2018",
         cardTitle: "Lawrence Berkeley National Laboratory",
         cardSubtitle: "Computational Research Fellow",
@@ -29,6 +39,16 @@ export const experience = [
             "Mentor students on personal projects to make them more competitive on college and internship applications."
         ]
     },
+    {
+        title: "Aug 2017 – May 2018",
+        cardTitle: "Math Club at American River College",
+        cardSubtitle: "Club President",
+        cardDetailedText: [
+            "Organize club meetings and lead sessions centered around competitions with extracurricular study.",
+            "Work with students to prepare for our annual Integration Bee and AMATYC Testing.",
+            "Raise money for pizza party's and fun get togethers!"
+        ]
+    }
 ];
 
 export const experieneTheme={ 
