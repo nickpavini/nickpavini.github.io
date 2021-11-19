@@ -14,8 +14,8 @@
 #experience_timeline {
     margin: auto;
     padding-top: 2.5em;
-    width:60%;
-    height:75vh;
+    width: 60%;
+    height: 75vh;
 }
 
 .card-description{
@@ -30,4 +30,50 @@
 .card-sub-title {
     font-weight: 600 !important;
     margin-left: 1em !important;
+}
+
+@media (max-width: 1200px) {
+    #experience {
+        height: unset;
+    }
+
+    #experience_timeline {
+        width: 80%;
+        height: unset;
+    }
+}
+
+@media (max-width: 900px) {
+    #experience_timeline {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    #experience {
+        height: unset;
+    }
+
+    #experience_timeline {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*get these by inspecting the page*/
+    .timeline-main-wrapper{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
+
+    .timeline-item-title{
+        text-align: center;
+        padding: 0 !important;
+    }
+    .css-mpnodf-TimelineTitleWrapper{
+        width: 20% !important;
+    }
+    .css-1iv48dl-TimelineVerticalWrapper{
+        padding: 0 !important;
+    }
 }
